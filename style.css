@@ -1,0 +1,85 @@
+body {
+  background: white;
+  margin: 0;
+  padding: 0;
+  font-family: "proxima-nova", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: #545454; }
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+  ul li {
+    margin: 1em 0;
+    color: #999999;
+    font-size: 0.9em;
+    font-style: italic; }
+
+a,
+a:visited {
+  color: #0088cc;
+  text-decoration: none; }
+  a:hover, a:focus,
+  a:visited:hover,
+  a:visited:focus {
+    text-decoration: underline; }
+
+#page-wrapper {
+  max-width: 600px;
+  margin: 0 auto 3em;
+  padding: 0 1em; }
+
+#mug-shot {
+  text-align: center;
+  margin: 3em 0; }
+  #mug-shot img {
+    width: 150px;
+    -webkit-border-radius: 90px;
+    -moz-border-radius: 90px;
+    -o-border-radius: 90px;
+    border-radius: 90px; }
+
+hgroup {
+  text-align: center;
+  font-family: "chaparral-pro", Georgia, serif; }
+  hgroup h1 {
+    color: black;
+    font-size: 4em;
+    font-weight: normal; }
+  hgroup h2 {
+    font-weight: normal;
+    color: #999999;
+    font-size: 1.2em; }
+
+section {
+  margin-top: 3em; }
+  section h1 {
+    font-weight: normal;
+    font-family: "proxima-nova", Arial, sans-serif;
+    font-size: 1.2em;
+    color: black; }
+  section p {
+    text-align: justify;
+    line-height: 1.6em;
+    margin: 1.2em 0;
+    font-size: 1em; }
+
+.exp-company,
+.port-title,
+.pub-title {
+  font-size: 1.1em;
+  padding-bottom: 0.25em;
+  font-style: normal;
+  color: #545454; }
+  .exp-company a,
+  .exp-company a:visited,
+  .port-title a,
+  .port-title a:visited,
+  .pub-title a,
+  .pub-title a:visited {
+    color: #545454; }
+
+#contact p {
+  font-size: 1em;
+  margin: 0.5em 0 0; }
